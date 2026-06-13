@@ -22,18 +22,19 @@ The system extracts text from uploaded PDFs, converts the text into embeddings u
 - Interactive Streamlit interface
 
 ---
-##  Technologies Used
----
-Python	  : core programming language
-Streamlit :	Web Application Framework
-PyPDF2    :	PDF Text Extraction
-Sentence Transformers : Text Embeddings
-FAISS     :	Vector Database
-NumPy     :	 Numerical Operations
-Requests  : API Communication
-Ollama	  : Local LLM Runtime
-Llama 3   : Large Language Model
+## Technologies Used
 
+```text
+Python                  : Core Programming Language
+Streamlit               : Web Application Framework
+PyPDF2                  : PDF Text Extraction
+Sentence Transformers   : Text Embeddings Generation
+FAISS                   : Vector Database
+NumPy                   : Numerical Operations
+Requests                : API Communication
+Ollama                  : Local LLM Runtime
+Llama 3                 : Large Language Model
+```
 ---
 ## Project Structure
 
