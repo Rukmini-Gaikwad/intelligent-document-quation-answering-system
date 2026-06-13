@@ -10,11 +10,8 @@ The Intelligent Document Question Answering System is a Retrieval-Augmented Gene
 The system extracts text from uploaded PDFs, converts the text into embeddings using Sentence Transformers, stores them in a FAISS Vector Database, retrieves relevant content using semantic search, and generates context-aware answers using a local LLM (Llama 3 via Ollama).
 
 ---
-
 ## Features
-
 ---
-
 - Upload PDF documents
 - Extract text from PDF files
 - Automatic text chunking
@@ -25,11 +22,8 @@ The system extracts text from uploaded PDFs, converts the text into embeddings u
 - Interactive Streamlit interface
 
 ---
-
 ##  Technologies Used
-
 ---
-
 Python	  : core programming language
 Streamlit :	Web Application Framework
 PyPDF2    :	PDF Text Extraction
@@ -40,7 +34,6 @@ Requests  : API Communication
 Ollama	  : Local LLM Runtime
 Llama 3   : Large Language Model
 
-##  Project Structure
 ---
 ## Project Structure
 
@@ -59,32 +52,40 @@ project/
 
 ---
 
-##  Workflow
+## Working Flow
 
----
-
+```text
 PDF Upload
-   ↓
+    │
+    ▼
 Extract Text from PDF
-    ↓
+    │
+    ▼
 Split Text into Chunks
-    ↓
+    │
+    ▼
 Generate Embeddings
-    ↓
+    │
+    ▼
 Store Embeddings in FAISS
-    ↓
+    │
+    ▼
 User Asks Question
-    ↓
+    │
+    ▼
 Convert Question to Embedding
-    ↓
+    │
+    ▼
 Retrieve Relevant Chunks
-    ↓
+    │
+    ▼
 Create Context
-    ↓
+    │
+    ▼
 Send Context + Question to LLM
-    ↓
+    │
+    ▼
 Generate Final Answer
-
----
+```
 
 
