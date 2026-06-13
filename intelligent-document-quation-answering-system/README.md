@@ -1,11 +1,7 @@
 ## Intelligent Document Question Answering System using RAG and Large Language Model
 
----
-
 ##  Project Overview
-
 ---
-
 Intelligent Document Question Answering System using RAG and Large Language Models
 Overview
 
@@ -45,9 +41,7 @@ Ollama	  : Local LLM Runtime
 Llama 3   : Large Language Model
 
 ##  Project Structure
-
 ---
-
 project/
 │
 ├── app.py
