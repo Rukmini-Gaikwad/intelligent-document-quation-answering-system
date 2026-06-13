@@ -1,0 +1,9 @@
+Python	 
+Streamlit 
+PyPDF2   
+SentenceTransformers 
+FAISS     
+NumPy     
+Requests  
+Ollama	  
+Llama 3   
