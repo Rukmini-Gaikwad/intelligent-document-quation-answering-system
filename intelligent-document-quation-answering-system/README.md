@@ -42,6 +42,9 @@ Llama 3   : Large Language Model
 
 ##  Project Structure
 ---
+## Project Structure
+
+```text
 project/
 │
 ├── app.py
@@ -52,6 +55,7 @@ project/
 │   └── sample.pdf
 │
 └── assets/
+```
 
 ---
 
