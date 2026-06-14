@@ -1,6 +1,4 @@
 # =========================================================
-#              Marvellous Infosystems
-# =========================================================
 # Project Name : Intelligent Document Question Answering System
 #                using RAG and Large Language Models
 #
